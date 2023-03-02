@@ -1,3 +1,13 @@
+/* navigation bars start */
+let menu = document.querySelector(".menu_bars");
+let nav = document.querySelector(".navbar");
+
+menu.onclick = () => {
+  menu.classList.toggle("fa-times");
+  nav.classList.toggle("active");
+};
+/* navigation bars  end */
+
 document.addEventListener("scroll", () => {
   console.log(document.querySelector(".hero").scrollHeight);
   console.log(window.scrollY);
@@ -13,8 +23,7 @@ let menuBtn = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".header .flex .navbar");
 
 menuBtn.onclick = () => {
-  menuBtn.classList.toggle("fa-times");
-  navbar.classList.toggle("active");
+  menuBtn.classList.toggle("fa fa-times");
 };
 
 var swiper = new Swiper(".course-slider", {
