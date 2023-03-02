@@ -89,7 +89,7 @@ nav:hover {
 }
 
 nav .logo {
-  width: 220px;
+  width: 20%;
 }
 nav ul li {
   list-style: none;
@@ -768,6 +768,11 @@ p.awesome_line {
 .title-box p {
   font-size: 17px;
   line-height: 2em;
+}
+@media (max-width: 425px){
+.holderCircle{
+  display: none;
+}
 }
 
 /*SErvice Section */
