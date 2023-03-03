@@ -91,6 +91,9 @@ nav:hover {
 nav .logo {
   width: 20%;
 }
+nav ul{
+  display: flex;
+}
 nav ul li {
   list-style: none;
   display: inline-block;
@@ -141,7 +144,7 @@ ul li ul li a:hover {
 nav ul li a {
   text-decoration: none;
   color: var(--white);
-  font-size: 17px;
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -502,27 +505,27 @@ p.awesome_line {
   border-radius: 50px;
 }
 .item .feature_box_col_one {
-  background: rgba(247, 198, 5, 0.2);
+  background: #2C2474;
   color: #f91942;
 }
 .item .feature_box_col_two {
-  background: rgba(255, 77, 28, 0.15);
+  background: #2C2474;
   color: #f91942;
 }
 .item .feature_box_col_three {
-  background: rgba(0, 147, 38, 0.15);
+  background: #2C2474;
   color: #f91942;
 }
 .item .feature_box_col_four {
-  background: rgba(0, 108, 255, 0.15);
+  background: #2C2474;
   color: #f91942;
 }
 .item .feature_box_col_five {
-  background: rgba(146, 39, 255, 0.15);
+  background: #2C2474;
   color: #f91942;
 }
 .item .feature_box_col_six {
-  background: rgba(23, 39, 246, 0.15);
+  background: #2C2474;
   color: #f91942;
 }
 .item p {
@@ -628,7 +631,7 @@ p.awesome_line {
   height: 80px;
   position: absolute;
   background: #ffffff;
-  color: #7d4ac7;
+  color: #2C2474;
   border-radius: 20px;
   text-align: center;
   line-height: 80px;
@@ -651,7 +654,7 @@ p.awesome_line {
   content: "";
   width: 5px;
   height: 5px;
-  border: 3px solid #7d4ac7;
+  border: 3px solid #2C2474;
   bottom: -31px;
   left: -14px;
   filter: blur(1px);
@@ -666,7 +669,7 @@ p.awesome_line {
   top: -15px;
   position: absolute;
   transform: rotate(-45deg);
-  border: 6px solid #a733bb;
+  border: 6px solid #2C2474;
   right: -39px;
 }
 
@@ -688,21 +691,7 @@ p.awesome_line {
   color: #ffffff;
   transition: 0.5s; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
   background: #7d4ac7; /* Old browsers */
-  background: -moz-linear-gradient(
-    left,
-    #7d4ac7 0%,
-    #a733bb 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    #7d4ac7 0%,
-    #a733bb 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to right,
-    #7d4ac7 0%,
-    #a733bb 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #2C2474; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */
   border: 2px solid #ffffff;
   -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
@@ -763,7 +752,7 @@ p.awesome_line {
 .title-box span {
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
   font-weight: 800;
-  color: #640178;
+  color: #2C2474;
 }
 .title-box p {
   font-size: 17px;
@@ -814,7 +803,7 @@ p.awesome_line {
 .service i {
   font-size: 40px;
   margin-bottom: 10px;
-  color: #5b65eb;
+  color: #383d85;
 }
 
 .service h2 {
@@ -891,7 +880,7 @@ p.awesome_line {
 
 .biziq svg {
   width: 14px;
-  color: gold;
+  color: #f91942;
 }
 .biziq .review-date {
   font-size: 13px;
@@ -1994,7 +1983,7 @@ body {
 }
 
 .effect.effect-four {
-  background: #2e5d5a;
+  background: #2C2474;
 }
 
 .effect-four .tab-text h2 {
@@ -3186,7 +3175,7 @@ body {
 }
 
 .footer {
-  background-color: #004658;
+  background-color: #24285a;
   color: #fff;
   overflow: hidden;
 }
@@ -3208,9 +3197,11 @@ body {
   max-width: 1230px;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 2fr));
   place-items: center;
   padding: 40px 0;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-content-column {
@@ -3387,7 +3378,7 @@ body {
 }
 
 .footer-copyright {
-  background-color: #027b9a;
+  background-color: #24285a;
   color: #fff;
   padding: 15px 30px;
   text-align: center;

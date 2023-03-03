@@ -8,16 +8,16 @@ menu.onclick = () => {
 };
 /* navigation bars  end */
 
-document.addEventListener("scroll", () => {
-  console.log(document.querySelector(".hero").scrollHeight);
-  console.log(window.scrollY);
-  if (window.scrollY > document.querySelector(".hero").scrollHeight) {
-    document.querySelector("nav").classList.add("navbar-fixed");
-  } else {
-    document.querySelector("nav").classList.remove("navbar-fixed");
-  }
-  console.log(document.body.scrollTop);
-});
+// document.addEventListener("scroll", () => {
+//   console.log(document.querySelector(".hero").scrollHeight);
+//   console.log(window.scrollY);
+//   if (window.scrollY > document.querySelector(".hero").scrollHeight) {
+//     document.querySelector("nav").classList.add("navbar-fixed");
+//   } else {
+//     document.querySelector("nav").classList.remove("navbar-fixed");
+//   }
+//   console.log(document.body.scrollTop);
+// });
 
 let menuBtn = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".header .flex .navbar");
